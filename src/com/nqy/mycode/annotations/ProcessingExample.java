@@ -13,6 +13,10 @@ public class ProcessingExample {
         readAnnotation(classObj);
     }
 
+    /**
+     * <b>bold</b><i>italic</i><em>em</em><strong>strong</strong>
+     * @param classObj
+     */
     private static void readAnnotation(Class<SetCustomAnnotation> classObj) {
         if(classObj.isAnnotationPresent(TypeHeader.class)){
             Annotation annotation = classObj.getAnnotation(TypeHeader.class);
