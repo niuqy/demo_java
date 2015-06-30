@@ -9,13 +9,14 @@ public class Test {
         String filePath = "../demo_java/src/com/nqy/mycode/xml_parse/dimen";
 //        dom.parserXml2(filePath);
 //        dom.writeToXml();
-        dom.parseAndWrite(filePath);
+        dom.parseAndWrite(filePath,2/3f);
 
+//        System.out.println(2/3f);
 //        String s = "410dp";
 //        String sub = s.substring(0,s.length()-2);
 //        int init = Integer.parseInt(sub);
-//        int r = (int) (init*0.66+0.5);
-//        System.out.println((int)(Integer.parseInt(s.substring(0,s.length()-2))*0.66+0.5));
+//        int r = (int) (init*2/3+0.5);
+//        System.out.println((int)(r+0.5));
     }
 
     private static void parseUseDom(String file) {

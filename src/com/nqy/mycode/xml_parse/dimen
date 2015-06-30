@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dimens>
-    <!-- 1920x1080 mdpi -->
-    <dimen name="film_tv_content_special_width">650dp</dimen>
-    <dimen name="film_tv_content_special_height">420dp</dimen>
-
-    <dimen name="film_tv_content_width">256dp</dimen>
-    <dimen name="film_tv_content_height">320dp</dimen>
-
-    <dimen name="film_tv_live_category_width">324dp</dimen>
-    <dimen name="film_tv_live_category_height">214dp</dimen>
-
-    <!-- 1920x1080 hdpi -->
-    <dimen name="film_tv_content_special_width">433dp</dimen>
-    <dimen name="film_tv_content_special_height">280dp</dimen>
-    <dimen name="film_tv_content_width">171dp</dimen>
-    <dimen name="film_tv_content_height">213dp</dimen>
-    <dimen name="film_tv_live_category_width">216dp</dimen>
-    <dimen name="film_tv_live_category_height">143dp</dimen>
-
-    <!-- values default -->
-    <dimen name="film_tv_content_special_width">429dp</dimen>
-    <dimen name="film_tv_content_special_height">277dp</dimen>
-
-    <dimen name="film_tv_content_width">169dp</dimen>
-    <dimen name="film_tv_content_height">211dp</dimen>
-
-    <dimen name="film_tv_live_category_width">214dp</dimen>
-    <dimen name="film_tv_live_category_height">141dp</dimen>
+    <dimen name="visited_most_item_shadow_width">528dp</dimen>
+    <dimen name="visited_most_item_shadow_height">298dp</dimen>
+    <dimen name="visited_most_item_height">292dp</dimen>
+    <dimen name="visited_most_item_width">520dp</dimen>
+    <dimen name="visited_most_item_margin_left">27dp</dimen>
+    <dimen name="visited_most_trash_margin_top">40dp</dimen>
+    <dimen name="visited_most_scroll_margin_left">172dp</dimen>
 </dimens>

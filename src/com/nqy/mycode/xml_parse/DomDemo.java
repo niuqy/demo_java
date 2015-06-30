@@ -131,7 +131,7 @@ public class DomDemo implements XmlDocument {
 
     }
 
-    public void parseAndWrite(String fileName){
+    public void parseAndWrite(String fileName,float rate){
         try {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -156,7 +156,7 @@ public class DomDemo implements XmlDocument {
                 Text nameText;
                 if(n.getNodeName() != "#text"){
                     String s = n.getTextContent();
-                    s = String.valueOf((int)(Integer.parseInt(s.substring(0,s.length()-2))*0.66+0.5))+s.subSequence(s.length()-2,s.length());
+                    s = String.valueOf((int)(Integer.parseInt(s.substring(0,s.length()-2))*rate+0.5))+s.subSequence(s.length()-2,s.length());
                     nameText = doc.createTextNode(s);
                     dimen2.appendChild(nameText);
                 }
