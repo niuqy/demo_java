@@ -9,7 +9,7 @@ public class Test {
         String filePath = "../demo_java/src/com/nqy/mycode/xml_parse/dimen";
 //        dom.parserXml2(filePath);
 //        dom.writeToXml();
-        dom.parseAndWrite(filePath,2/3f);
+        dom.parseAndWrite(filePath,1/2f);
 
 //        System.out.println(2/3f);
 //        String s = "410dp";
