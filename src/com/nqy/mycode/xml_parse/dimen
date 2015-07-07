@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dimens>
-    <dimen name="visited_most_item_shadow_width">528dp</dimen>
-    <dimen name="visited_most_item_shadow_height">298dp</dimen>
-    <dimen name="visited_most_item_height">292dp</dimen>
-    <dimen name="visited_most_item_width">520dp</dimen>
-    <dimen name="visited_most_item_margin_left">27dp</dimen>
-    <dimen name="visited_most_trash_margin_top">40dp</dimen>
-    <dimen name="visited_most_scroll_margin_left">172dp</dimen>
+    <!-- mdpi 1920x1080 -->
+    <dimen name="visited_most_item_shadow_width">564dp</dimen>
+    <dimen name="visited_most_item_shadow_height">358dp</dimen>
+    <dimen name="visited_most_item_height">296dp</dimen>
+    <dimen name="visited_most_item_width">524dp</dimen>
+
+    <!-- default -->
+    <!--<dimen name="visited_most_item_shadow_width">372dp</dimen>-->
+    <!--<dimen name="visited_most_item_shadow_height">236dp</dimen>-->
+    <!--<dimen name="visited_most_item_height">195dp</dimen>-->
+    <!--<dimen name="visited_most_item_width">346dp</dimen>-->
+
 </dimens>
