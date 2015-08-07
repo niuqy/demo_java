@@ -1,0 +1,5 @@
+编译.c 文件生成so共享库时，提示编译错误，找不到 <jni.h> <jni_md.h>
+jni.h 在jdk/include/下，  jni_md.h在jdk/include/linux/下
+使用gcc编译时，指定上面两个文件的目录， gcc -I xxx 即可。
+编译命令  gcc -I ~/jdk/jdk1.6.0_45/include/ -I ~/jdk/jdk1.6.0_45/include/linux -O -fpic -shared -o libhello.so hello.c
+
